@@ -1,2 +1,13 @@
 
 /* Your CSS Code here. */
+.holder{
+	display:grid;
+	grid-template-columns:200px 200px ;
+	grid-template-rows:repeat(2, 1fr)
+}
+.itmes{
+	background-color:lightskyblue;border:2px solid gray;
+	border-radius:3px;
+	
+	
+}
